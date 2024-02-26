@@ -1,1 +1,1 @@
-# Submission Project Free Code Camp Responsive Web Design
+# Submission Project Responsive Web Design
