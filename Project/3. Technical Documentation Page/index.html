@@ -19,7 +19,7 @@
     <header>Js Variable</header>
     <a href="#javascript_and_java" class="nav-link">Javascript and Java</a>
     <a href="#hello_world" class="nav-link">Hello World</a>
-    <a href="#variable" class="nav-link">Variable</a>
+    <a href="#data_types" class="nav-link">Data Types</a>
     <a href="#declaring_variables" class="nav-link">Declaring Variables</a>
     <a href="#variable_scope" class="nav-link">Variable Scope</a>
   </nav>
@@ -40,31 +40,25 @@
     <section class="main-section" id="hello_world">
       <header>Hello World</header>
       <p>
-        To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+        To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code :
       </p>
       <code>
         <pre>
-  function greetMe(yourName) { 
-    alert("Hello " + yourName); 
+<span class="sp1">function</span> <span class="sp2">greetMe</span> <span class="sp3">(yourName)</span> { 
+    <span class="sp2">alert</span>(<span>"Hello "</span> + yourName); 
 }
-  greetMe("World");
-        </pre>
+<span class="sp2">greetMe</span>(<span class="sp3">"World"</span>);
+</pre>
       </code>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cum magni eos ex, eveniet fugiat quae fugit ab
-        sunt distinctio beatae cumque pariatur quasi accusantium repellendus libero optio soluta non! Voluptatum
-        asperiores voluptas quibusdam sequi non, aperiam possimus aut, veritatis fugit deserunt cum in earum ipsa beatae
-        eos inventore dolore.
+        Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
       </p>
     </section>
 
-    <section class="main-section" id="variable">
-      <header>Variable</header>
+    <section class="main-section" id="data_types">
+      <header>Data Types</header>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe neque voluptas possimus culpa vitae, molestias
-        commodi sint, veritatis maiores in voluptatem at. Voluptatibus nisi sapiente voluptatum quis modi, repudiandae a
-        animi incidunt. Deserunt voluptates, praesentium reiciendis, architecto tempore quidem fugiat, laborum
-        recusandae adipisci enim assumenda accusamus beatae temporibus ratione blanditiis!
+        The latest ECMAScript standard defines seven data types :
       </p>
       <p>Five data types that are primitives :</p>
       <ul>
@@ -83,15 +77,12 @@
     <section class="main-section" id="declaring_variables">
       <header>Declaring Variables</header>
       <p>With the keyword var. For example,</p>
-      <code><pre>var x = 42.</pre></code>
+      <code><pre><span class="sp1">var</span> x = <span class="sp4">42</span></pre></code>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident architecto corporis voluptatem? Laudantium,
-        qui maxime. Perferendis voluptatum, numquam ducimus officia, possimus consequuntur doloribus voluptas nemo,
-        excepturi odio officiis voluptate. Dolor cumque optio iusto, nihil doloremque aliquam ipsum numquam magnam natus
-        velit aliquid exercitationem hic! Necessitatibus dolore maiores temporibus porro corrupti.
+        This syntax can be used to declare both local and global variables.
       </p>
       <p>By simply assigning it a value. For example,</p>
-      <code><pre>x = 42.</pre></code>
+      <code><pre><span class="sp1">x</span> = <span class="sp4">42</span></pre></code>
     </section>
 
     <section class="main-section" id="variable_scope">
@@ -105,14 +96,20 @@
         this case
         is an if statement.
       </p>
-      <code><pre>if (true) { var x = 5; } console.log(x); // 5</pre></code>
+      <code><pre><span class="sp1">if</span> (<span class="sp1">true</span>) {
+    <span class="sp1">var</span> x = <span class="sp4">5</span>; 
+} 
+<span class="sp4">console</span>.<span class="sp2">log</span>(x); <span class="sp5">// 5</span></pre></code>
       <p>
         This behavior changes, when using the let declaration introduced in ECMAScript 2015.
       </p>
       <code>
-        <pre>
-  if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined
-    </pre>
+<pre>
+<span class="sp1">if</span> (<span class="sp1">true</span>) {
+    <span class="sp1">let</span> y = <span class="sp4">5</span>;
+}
+<span class="sp4">console</span>.<span class="sp2">log</span>(y); <span class="sp5">// ReferenceError: y not defined</span>
+</pre>
     </code>
     </section>
   </main>
