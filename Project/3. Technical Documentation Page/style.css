@@ -17,6 +17,10 @@ body {
   padding: 0;
 }
 
+p {
+  text-align: justify;
+}
+
 main header,
 nav header {
   font-weight: 700;
@@ -39,6 +43,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  background-color: #6f2cf2;
+}
+
 main {
   padding: 20px;
   height: 100vh;
@@ -47,9 +55,32 @@ main {
 }
 
 code pre {
-  background-color: #999;
+  background-color: #0d0d0d;
   padding: 20px;
-  color: black;
+  color: white;
+  font-family: monospace;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.sp1 {
+  color: #2e95d3;
+}
+
+.sp2 {
+  color: #f22c3d;
+}
+
+.sp3 {
+  color: #00a67d;
+}
+
+.sp4 {
+  color: #df3079;
+}
+
+.sp5 {
+  color: #868686;
 }
 
 @media (max-width: 576px) {
