@@ -19,6 +19,7 @@ body {
   color: var(--dark-text);
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 a {
@@ -31,7 +32,7 @@ a {
   justify-content: space-evenly;
   position: fixed;
   top: 0;
-  padding: 20px;
+  padding: 20px 0;
   width: 100%;
 }
 
