@@ -196,7 +196,7 @@ button.btn:hover {
 
 footer {
   padding: 15px 25px;
-  background-color: #ff0000;
+  background-color: #000;
 }
 
 p.copyrights {
@@ -209,18 +209,22 @@ p.copyrights {
   header#header {
     padding: 10px 20px;
   }
+
   section#subscription {
     padding: 0 30px;
     text-align: center;
   }
+
   div#container {
     padding: 25px 30px;
   }
+
   section#pricing {
     display: grid;
     grid-template-columns: minmax(300px, 500px);
     justify-content: center;
   }
+
   ul#nav-ul {
     margin-left: 15px;
     display: flex;
@@ -229,18 +233,26 @@ p.copyrights {
     align-items: center;
     gap: 5px;
   }
+
   iframe {
     max-width: 475px;
     width: 100%;
     border-radius: 10px;
   }
+
   p.info {
     font-size: 2rem;
   }
+
   h3 {
     font-size: 2.3rem;
   }
+
   .description p {
     font-size: 1.8rem;
+  }
+
+  p.copyrights {
+    font-size: 0.935em;
   }
 }
