@@ -15,6 +15,7 @@ body {
   line-height: 1.7;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 p {
@@ -34,6 +35,7 @@ nav {
 
 nav header {
   padding: 15px;
+  color: #fff;
 }
 
 nav a {
@@ -41,10 +43,11 @@ nav a {
   border-top: 1px solid;
   padding: 15px;
   text-decoration: none;
+  color: #fff;
 }
 
 nav a:hover {
-  background-color: #6f2cf2;
+  background-color: #4b2cd2;
 }
 
 main {
@@ -55,7 +58,7 @@ main {
 }
 
 code pre {
-  background-color: #0d0d0d;
+  background-color: #1a1a1a;
   padding: 20px;
   color: white;
   font-family: monospace;
